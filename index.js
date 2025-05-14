@@ -12,7 +12,12 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'http://localhost:5173', 
+  origin: [
+    'http://localhost:5173',
+    'https://jewelo-frontend.vercel.app',
+    'https://jewelo-frontend-muhammad-suhails-projects.vercel.app'
+  ],
+  credentials: true
 }));
 
 const __filename = fileURLToPath(import.meta.url);
