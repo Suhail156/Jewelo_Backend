@@ -15,7 +15,6 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://jewelo-frontend.vercel.app',
-    'https://jewelo-frontend-muhammad-suhails-projects.vercel.app'
   ],
   credentials: true
 }));
