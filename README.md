@@ -45,7 +45,7 @@ A robust backend API built with **Node.js**, **Express.js**, and **MongoDB** to 
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/jewellery-backend.git
+git clone https://github.com/Suhail156/Jewelo_Backend.git
 cd jewellery-backend
 
 Install Dependencies
